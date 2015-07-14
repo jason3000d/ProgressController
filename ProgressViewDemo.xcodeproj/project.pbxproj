@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		802663BA1B5555A20026E372 /* ProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 802663B81B5555A20026E372 /* ProgressController.m */; };
+		802663BB1B5555A20026E372 /* ProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = 802663B81B5555A20026E372 /* ProgressController.m */; };
 		8074D8F01B354F5200A5B2D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8074D8EF1B354F5200A5B2D9 /* main.m */; };
 		8074D8F31B354F5200A5B2D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8074D8F21B354F5200A5B2D9 /* AppDelegate.m */; };
 		8074D8F61B354F5200A5B2D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8074D8F51B354F5200A5B2D9 /* ViewController.m */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		802663B81B5555A20026E372 /* ProgressController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressController.m; sourceTree = "<group>"; };
+		802663B91B5555A20026E372 /* ProgressController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressController.h; sourceTree = "<group>"; };
 		8074D8EA1B354F5200A5B2D9 /* ProgressViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8074D8EE1B354F5200A5B2D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8074D8EF1B354F5200A5B2D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +89,8 @@
 				8074D8F21B354F5200A5B2D9 /* AppDelegate.m */,
 				8074D8F41B354F5200A5B2D9 /* ViewController.h */,
 				8074D8F51B354F5200A5B2D9 /* ViewController.m */,
+				802663B81B5555A20026E372 /* ProgressController.m */,
+				802663B91B5555A20026E372 /* ProgressController.h */,
 				8074D8F71B354F5200A5B2D9 /* Main.storyboard */,
 				8074D8FA1B354F5200A5B2D9 /* Images.xcassets */,
 				8074D8FC1B354F5200A5B2D9 /* LaunchScreen.xib */,
@@ -219,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				802663BA1B5555A20026E372 /* ProgressController.m in Sources */,
 				8074D8F61B354F5200A5B2D9 /* ViewController.m in Sources */,
 				8074D8F31B354F5200A5B2D9 /* AppDelegate.m in Sources */,
 				8074D8F01B354F5200A5B2D9 /* main.m in Sources */,
@@ -229,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				802663BB1B5555A20026E372 /* ProgressController.m in Sources */,
 				8074D90A1B354F5300A5B2D9 /* ProgressViewDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ProgressViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ProgressViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +428,7 @@
 				8074D90F1B354F5300A5B2D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8074D9101B354F5300A5B2D9 /* Build configuration list for PBXNativeTarget "ProgressViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +437,7 @@
 				8074D9121B354F5300A5B2D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
