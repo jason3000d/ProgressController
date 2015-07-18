@@ -9,6 +9,9 @@ also perform visual effect like motion effect, just like UIAlertController in iO
 # ARC Compatibility
 ProgressController requires ARC. If you wish to use ProgressController in a non-ARC project, just add the -fobjc-arc compiler flag to the ProgressController.m class. To do this, go to the BUild Phases tab in your target settings, open the Compile Sources group, double-click ProgressController.m in the list and type -fobjc-arc into the popover.
 
+# Examples
+![Imgur](http://i.imgur.com/3AVEysn.jpg)
+
 # Properties
 Total number of tasks, defaults to 0.
 
